@@ -1,0 +1,10 @@
+@import './../abstracts/variables';
+
+main{
+  margin: auto;
+  min-height: 90vh;
+  width: $espacamento-principal;
+  padding: $padding-principal;
+  padding-top: 3.438rem;
+  padding-bottom: 3.438rem;
+}

@@ -1,0 +1,31 @@
+
+
+input, select, textarea{
+  width: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  resize: none;
+  padding: 0.594rem 1rem;
+  border: 2px solid #d3d3d3;
+
+  &:focus{
+    outline: none !important;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+label{
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.input-label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 17px;
+}

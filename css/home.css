@@ -1,0 +1,43 @@
+.apresentacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+.apresentacao .foto {
+  width: 58%;
+  height: 268px;
+}
+.apresentacao .explicacao {
+  width: 37%;
+}
+.apresentacao .explicacao h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.apresentacao .explicacao h1 img {
+  width: 120px;
+}
+.apresentacao .explicacao p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+@media screen and (min-width: 751px) and (max-width: 921px) {
+  .explicacao {
+    width: 50% !important;
+  }
+  .apresentacao .foto {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .apresentacao .foto {
+    display: none;
+  }
+  .explicacao {
+    width: 100% !important;
+  }
+}
